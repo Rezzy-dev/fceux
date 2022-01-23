@@ -169,6 +169,7 @@ static int resetkey(int sdlk_code)
 {
 	Uint8 *keystate = SDL_GetKeyState(NULL);
 	keystate[sdlk_code] = 0;
+	return 0;
 }
 
 static int g_fkbEnabled = 0;
@@ -308,6 +309,7 @@ static void KeyboardCommands() {
 	}
 
 	// R shift + combokeys
+/*
 	if(ispressed(DINGOO_R)) {
 		extern int g_slot; // import from gui.cpp
 		void save_preview(); // import from gui.cpp
@@ -358,6 +360,7 @@ static void KeyboardCommands() {
 			resetkey(DINGOO_START);
 		}
 	}
+*/
 
 	/*
 	 // Toggle Movie auto-backup
