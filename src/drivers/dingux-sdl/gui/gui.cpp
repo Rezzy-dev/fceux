@@ -265,7 +265,7 @@ static MenuEntry main_menu[] = {
 		{ "Load state", "Load emulation state", load_state },
 		{ "Save state", "Save current state", save_state },
 		{ "Reset", "Reset NES", reset_nes },
-		{ "Flip disk", "Switch side or disk (FDS)", flip_disc },
+		{ "Flip disk", "Switch side of disk (FDS)", flip_disc },
 		{ "Screenshot", "Save current frame shot", save_screenshot },
 		{ "Settings", "Change current settings", cmd_settings_menu },
 		{ "Exit", "Exit emulator", cmd_exit } 
